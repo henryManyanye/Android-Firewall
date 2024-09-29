@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Firewall</string>
+    <string name="manual">
+        "WARNING: \n
+         This firewall doesn't automatically start when you turn on your phone so make sure to turn off your data before you switch off your phone. In case of an accidental shutdown, make sure to turn off your data immediately after turning on your phone.
+        "
+    </string>
+
+</resources>

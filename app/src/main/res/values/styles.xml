@@ -1,0 +1,13 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="@style/Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+
+
+        <item name="android:fontFamily">@font/quicksand_light_reguler</item>
+        <item name="android:textColor">#ffffff</item>
+
+    </style>
+
+</resources>

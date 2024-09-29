@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff6600"
+    android:gravity="center_vertical|center_horizontal"
+    android:orientation="vertical">
+
+    <Button
+
+        style="@android:style/Widget.Material.Light.Button.Inset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:background="#000000"
+        android:fontFamily="@font/quicksand_light_reguler"
+        android:lineSpacingExtra="3.0sp"
+        android:onClick="selectApps"
+        android:padding="10sp"
+        android:text="Select apps that you want to use data"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#544AE0" />
+
+    <Button
+        style="@android:style/Widget.Material.Light.Button.Inset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:background="#000000"
+        android:fontFamily="@font/quicksand_light_reguler"
+        android:onClick="rechargeAccount"
+        android:padding="10sp"
+        android:text="Recharge your account"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#544AE0" />
+
+    <Button
+        style="@android:style/Widget.Material.Light.Button.Inset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:background="#000000"
+        android:fontFamily="@font/quicksand_light_reguler"
+        android:onClick="checkBalance"
+        android:padding="10sp"
+        android:text="Check your balance"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#544AE0" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:background="#000000"
+        android:fontFamily="@font/quicksand_light_reguler"
+        android:onClick="showManual"
+        android:padding="10sp"
+        android:text="User manual"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#544AE0" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:background="#000000"
+        android:fontFamily="@font/quicksand_light_reguler"
+        android:onClick="terminateFirewall"
+        android:padding="10sp"
+        android:text="Exit"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#544AE0" />
+
+
+</LinearLayout>
+
